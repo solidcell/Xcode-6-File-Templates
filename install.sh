@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Default the folder name to "1414 Degrees".
-folderName="1414 Degrees"
+# Default the folder name to "Custom".
+folderName="Custom"
 
 # Ensure that at most one argument has been passed in.
 if [ "$#" -eq 1 ]
@@ -9,7 +9,7 @@ then
 	folderName=$1
 elif [ "$#" -gt 1 ]
 then
-	echo -e "This script takes one argument at most.\\ne.g. install.sh \"1414 Degrees\""
+	echo -e "This script takes one argument at most.\\ne.g. install.sh \"Custom\""
 	exit 1
 fi
 
